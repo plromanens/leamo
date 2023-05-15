@@ -1,0 +1,11 @@
+.mixologie-card {
+  background: #ffe800;
+  border-top: solid black 2px;
+  border-bottom: solid black 2px;
+}
+
+@media (min-width: 800px) {
+  .mixologie-card img {
+    width: 721px;
+  }
+}

@@ -1,0 +1,9 @@
+.magasin-card {
+  border-bottom: solid black 2px;
+}
+
+@media (min-width: 800px) {
+  .magasin-card img {
+    width: 721px;
+  }
+}
