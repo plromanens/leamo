@@ -4,8 +4,14 @@
   border-bottom: solid black 2px;
 }
 
+.mixologie-card img {
+  width: calc(100% + 24px);
+  max-inline-size: none;
+  margin-left: -12px;
+}
+
 @media (min-width: 800px) {
   .mixologie-card img {
-    width: 721px;
+    width: 100%;
   }
 }
