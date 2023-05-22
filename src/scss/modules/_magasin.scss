@@ -11,3 +11,19 @@
 .magasin-title {
   margin: 30px 0px 40px 0px;
 }
+
+.bouton-magasin {
+  margin: 0px 0px 80px 0px;
+}
+
+.magasin-card img {
+  width: calc(100% + 24px);
+  max-inline-size: none;
+  margin-left: -12px;
+}
+
+@media (min-width: 800px) {
+  .mixologie-card img {
+    width: 100%;
+  }
+}
