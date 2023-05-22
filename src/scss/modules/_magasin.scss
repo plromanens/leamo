@@ -25,5 +25,16 @@
 @media (min-width: 800px) {
   .magasin-card img {
     width: 100%;
+    margin-left: none;
+  }
+}
+
+.magasin-text-box {
+  margin: none;
+}
+
+@media (min-width: 800px) {
+  .magasin-text-box {
+    margin: 0 30px;
   }
 }

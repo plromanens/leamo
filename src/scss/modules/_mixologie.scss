@@ -29,3 +29,13 @@
 .bouton-coktail {
   margin: 45px 0px 80px 0px;
 }
+
+.mixologie-text-box {
+  margin: none;
+}
+
+@media (min-width: 800px) {
+  .mixologie-text-box {
+    margin: 0 30px;
+  }
+}
