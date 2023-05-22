@@ -1,5 +1,6 @@
 .footer-card {
   background-color: #ff96c6;
+  padding-bottom: 5px;
 }
 
 .logo-leamo-footer {
@@ -12,10 +13,6 @@ a {
 
 .logo-insta {
   width: 28px;
-}
-
-.footer-box {
-  border-bottom: solid black 2px;
 }
 
 .footer-container {
@@ -50,5 +47,20 @@ a {
   margin-right: 20px;
 }
 .footer-copyright {
-  margin: 20px 0px;
+  margin: 10px 15px;
+}
+
+.footer-case {
+  border-top: solid black 2px;
+  border-bottom: solid black 2px;
+}
+
+.boxe-border {
+  border-right: none;
+}
+
+@media (min-width: 800px) {
+  .boxe-border {
+    border-right: solid black 2px;
+  }
 }
